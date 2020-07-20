@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.2"
+  s.add_dependency "rails", "~> 6.0.3", ">= 6.0.3.2"
   s.add_dependency "imgurapi", "~> 3.2"
   s.add_dependency "down", "~> 4.4"
   s.add_dependency "image_processing", "~> 1.2"
